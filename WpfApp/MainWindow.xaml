@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="Ratmon API 2021" Height="454.927" Width="800">
+        Title="Ratmon API 2021.01.11" Height="454.927" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="130"/>
