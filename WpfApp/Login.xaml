@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Login" Height="148.362" Width="320.438">
+    <Grid Margin="0,0,2,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="221*"/>
+            <ColumnDefinition Width="89*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="User" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="62"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="77,16,0,0" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" Width="196" Grid.ColumnSpan="2" Name="txtusername"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="77,50,0,0"   VerticalAlignment="Top"  Text="???"   Width="196" Grid.ColumnSpan="2" Name="txtpassword"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="86,85,0,0" VerticalAlignment="Top" Width="175" Height="22" Grid.ColumnSpan="2" Click="Button_Click"/>
+
+    </Grid>
+</Window>

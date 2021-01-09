@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp.ViewAllChanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="ViewAllChanel" Height="168.175" Width="800" Initialized="Window_Initialized">
+    <Grid>
+        <DataGrid Name="dbGrid" HorizontalAlignment="Left" 
+                    ItemsSource="{Binding}"
+           
+                  
+                  Margin="26,10,0,10" Width="721" 
+                  >
+            <DataGrid.Resources>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" Handler="Row_DoubleClick"/>
+                </Style>
+            </DataGrid.Resources>
+        </DataGrid>
+
+    </Grid>
+</Window>
