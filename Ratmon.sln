@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pd.Ratmon", "Pd.Ratmon\Pd.Ratmon.csproj", "{B9B1B730-DCD6-45E3-811F-30AD94E24F75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F5AE3E43-8C27-436E-912C-125BEE3C4316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{3B2C2A9F-8D0E-42A4-9EE8-9713FB48B817}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +48,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1228A614-6702-4D7C-937D-56D2096D63E5} = {F5AE3E43-8C27-436E-912C-125BEE3C4316}
+		{446C3DF5-0C0D-4016-85AF-A65BC01DAE82} = {F5AE3E43-8C27-436E-912C-125BEE3C4316}
+		{B9B1B730-DCD6-45E3-811F-30AD94E24F75} = {F5AE3E43-8C27-436E-912C-125BEE3C4316}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59173915-134D-4997-874D-788311C9CC2E}
